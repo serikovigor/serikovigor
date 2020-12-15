@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/style.css">
+<title> Igor Serikov's site </title>
+<script type="text/javascript">
+var cur=0;  
+function sio(){  
+    var el=document.all.wilcome;
+    if (cur==0){cur=cur+1; el.style.color = "#F59DBD";}
+    else {cur=0; el.style.color = "red";}
+setTimeout('sio()', 1800)
+}  
+</script>  
+</head>
+<body bgcolor="#bc986a" onLoad="sio()">
+
+
+<h1 id="wilcome">W E L C O M E !</h1>
+
+<div class="menu">
+  <div class="menu_git">
+    <a href="https://github.com/serikovigor">GitHub </a> 
+  </div>
+
+  <div class="menu_android">
+    <a href="https://play.google.com/store/apps/developer?id=%D0%A1%D0%B5%D1%80%D0%B8%D0%BA%D0%BE%D0%B2+%D0%98%D0%B3%D0%BE%D1%80%D1%8C"> Android market </a>
+  </div>
+</div>
+
+<div class="aboutme">
+  <div class="aboutme_imagebox">
+    <img src="ios.png" 
+     width="200" alt="lorem"  align="left">
+  </div>
+  <div class="aboutme_text">
+    <p>Hello, I'm <strong class="ios"> Igor Serikov</strong>,
+    a Software Engineer based in Oryol, Russia. <br>
+    ​I enjoy programming Python applications and creating videos on Youtube.</p>
+  </div>
+</div>
+<br>
+<div class="news">
+News<br>
+2/12/2020 - First version of ANDROID application - <a href="https://play.google.com/store/apps/details?id=ru.serikovigor.dictating">ENGLISH-RUSSIAN dictation</a> published on play market.
+
+
+</div>
+
+</body>
+</html>
