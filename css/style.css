@@ -25,17 +25,17 @@
 .aboutme_imagebox { 
   float:left;
   margin: 20px 20px 20px 15px; 
- display: inline-block;
+  //display: inline-block;
  }
 
 .aboutme_text{ 
-  float:right;
+  //float:right;
   margin: 20px 20px 20px 15px;
   padding: 20px;
   border: solid 4px white; 
   background-color:#fbeec1;
- display: inline-block;
-  width: 60%;
+  //display: inline-block;
+  //width: 60%;
  
 
 }
